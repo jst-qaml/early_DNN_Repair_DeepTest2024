@@ -1,0 +1,30 @@
+{
+    "README":{
+       "METHOD_LINE1":"The method designates which repair method is used.",
+       "METHOD_LINE2":"All the method modules should be placed under 'repair' folder.",
+
+       "DATASET_LINE1":"The dataset designates which dataset is used",
+       "DATASET_LINE2":"All the dataset modules should be placed under 'dataset' folder",
+
+       "MODEL_LINE1":"The model designates which model is used",
+       "MODEL_LINE2":"All the model modules should be placed under 'model' folder",
+
+       "CUSTOM_OBJECTS_LINE1":"The custom_objects designates custom layer classes required to load model in this framework",
+
+       "KEYS":"The keys are option names",
+       "VALUES_LINE1":"The values are actual module names like 'package_name.class_name'",
+       "VALUES_LINE2":"e.g. 'arachne.arachne.Arachne' means importing 'repair.arachne.arachne' and generating Arachne's instance",
+       "VALUES_LINE3":"parent pkg phrase like 'dataset' or 'repair' is concatinated automatically"
+    },
+    "method":{
+        "Arachne":"arachne.arachne.Arachne"
+    },
+    "dataset":{
+        "GTSRB":"gtsrb.gtsrb.GTSRB",
+        "RSNA_small":"rsna_small.pneumonia.RSNAPneumonia"
+    },
+    "model":{
+        "vgg16_fine_tuning":"vgg16.model.VGG16FineTuningModel",
+        "densenet121_no_weights":"densenet121_no_weights.model.DenseNet121Model"
+    }
+}
